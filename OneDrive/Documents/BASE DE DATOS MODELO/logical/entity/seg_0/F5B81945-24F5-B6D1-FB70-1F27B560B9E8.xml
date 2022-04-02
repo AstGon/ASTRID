@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5B81945-24F5-B6D1-FB70-1F27B560B9E8" name="SUCURSAL">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:27:15 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SUCURSAL" id="7A2BC8F8-5E79-B31F-6832-DB53B8FCEEEF">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:27:21 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="12349F78-C838-1EC9-FAED-5EF5E831F2C5">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:27:25 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_3" id="1A2426B9-5B03-F5C0-5836-4691761D41A5">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:27:28 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMUNA" id="DB8696FE-75B9-73E6-6487-4FB801DFDB10">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:27:28 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIUDAD" id="FA8BBDEC-AB95-F5B4-9776-A6073FC63C09">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:27:31 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="545B94D8-4CAF-8C28-789D-078A1595637E" name="SUCURSAL PK">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:27:35 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A2BC8F8-5E79-B31F-6832-DB53B8FCEEEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

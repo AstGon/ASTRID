@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14941A12-F0D2-366E-BA80-68883568A987" name="SERVICIOS">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:26:13 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SERVICIO" id="D1E69FB3-E9A4-B1A3-8E50-5C9977EA06A3">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:26:21 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="56E647F7-2B89-9FC3-70A7-82F6D18D198B">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:26:30 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55B68E7C-5599-7E67-79F5-373F3A6EA50A" name="SERVICIOS PK">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:26:27 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1E69FB3-E9A4-B1A3-8E50-5C9977EA06A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

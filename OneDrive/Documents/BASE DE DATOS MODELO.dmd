@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BASE DE DATOS MODELO" id="C0DF0D50-E93D-E621-A829-A62DAB57C0F6" version="3.5">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 16:26:28 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C0DF0D50-E93D-E621-A829-A62DAB57C0F6</designId>
+</OSDM_Design>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTIENEv1" directorySegmentName="seg_0" id="FAF94205-987A-73C0-EAE0-C86F92FC02A5">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:33:17 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<sourcePk>B41A6AB7-A5A9-B67F-87E4-444871EAB05E</sourcePk>
+<targetPk>C84A5461-7B8A-0265-784C-D8E6089799BB</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>61B51B86-A698-AD40-B8C4-90BBAC14625E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6EF59529-8DA3-A52E-3A3B-74342AB8370C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61B51B86-A698-AD40-B8C4-90BBAC14625E" name="ORDEN DE ATENCION">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:25:42 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDE_ORDEN" id="A3ACAE0A-2356-6854-E15F-CDFB51F0BC74">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:25:50 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_RECEPCION" id="A2A7573C-F4E8-CDA7-4611-89A674B6FC9C">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:26:01 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT" id="9E589F5B-6773-7208-2277-7395C4E0F4F7">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:30:06 UTC</createdTime>
+<generatorID>6AF76241-C625-5CEA-22E5-37516A6F3B28</generatorID>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<referedAttribute>3C9BE403-379D-DF2E-34B8-792DCAEBA2A1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PATENTE" id="A08315BC-6831-5DBA-A8F6-1431732DBB81">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:30:27 UTC</createdTime>
+<generatorID>916EC572-8201-CE49-6162-DD4D31443DDA</generatorID>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<referedAttribute>048D9223-C31B-882F-B385-D7F89C9799A5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTADO" id="D98609B8-CF6F-C4AB-E520-66ACF74E12B1">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:33:50 UTC</createdTime>
+<generatorID>FAF94205-987A-73C0-EAE0-C86F92FC02A5</generatorID>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>01791A17-7FC6-F644-0E49-FD201222870E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SUCURSAL" id="9D1402AA-7A26-021E-94DE-3007424BBB5E">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:34:08 UTC</createdTime>
+<generatorID>C97781FD-BD9A-980A-D160-5B81E5E6EB7B</generatorID>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<referedAttribute>7A2BC8F8-5E79-B31F-6832-DB53B8FCEEEF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B41A6AB7-A5A9-B67F-87E4-444871EAB05E" name="ORDEN DE ATENCION PK">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:25:57 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3ACAE0A-2356-6854-E15F-CDFB51F0BC74</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

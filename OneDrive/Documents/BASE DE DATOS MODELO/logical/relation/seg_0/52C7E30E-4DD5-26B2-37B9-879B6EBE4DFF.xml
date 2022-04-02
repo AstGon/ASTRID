@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIENEv3" directorySegmentName="seg_0" id="52C7E30E-4DD5-26B2-37B9-879B6EBE4DFF">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:33:07 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>61B51B86-A698-AD40-B8C4-90BBAC14625E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14941A12-F0D2-366E-BA80-68883568A987</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

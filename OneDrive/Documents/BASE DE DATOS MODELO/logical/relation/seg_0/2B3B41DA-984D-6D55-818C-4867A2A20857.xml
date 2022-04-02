@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UTILIZA" directorySegmentName="seg_0" id="2B3B41DA-984D-6D55-818C-4867A2A20857">
+<createdBy>ASTRID</createdBy>
+<createdTime>2022-04-02 17:32:14 UTC</createdTime>
+<ownerDesignName>BASE DE DATOS MODELO</ownerDesignName>
+<engineerTo>
+<item key="2700C54C-EFA7-E7F2-EAE1-4C016239E24C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B4C3FF9C-B015-1DE6-F962-C5A4E90FF382</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>408C9867-63C0-4006-110E-F25FD60789DA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
